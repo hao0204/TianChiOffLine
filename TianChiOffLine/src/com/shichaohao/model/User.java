@@ -2,12 +2,12 @@ package com.shichaohao.model;
 
 public class User {
 	
-	private String user_id;
-	private String item_id;
-	private String behavior_type;
-	private String user_geohash;
-	private String item_category;
-	private String time;
+	private String user_id; //用户标识
+	private String item_id; //商品标识
+	private String behavior_type; //用户对商品的行为类型.包括浏览、收藏、加购物车、购买，对应取值分别是1、2、3、4。
+	private String user_geohash; //用户位置的空间标识，可以为空
+	private String item_category; //商品分类标识
+	private String time; //行为时间
 	
 	public User(){
 	}
