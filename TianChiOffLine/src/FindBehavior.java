@@ -8,7 +8,7 @@ import java.util.Scanner;
 import com.shichaohao.model.Item;
 import com.shichaohao.model.User;
 
-public class Main {
+public class FindBehavior {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		File userFile = new File("tianchi_fresh_comp_train_user.csv");
